@@ -5,7 +5,7 @@ setps to setup:
 2.create .env file in root directory  
 3.Add four environment variables into .env file
 
-  MARIADB_HOST = 127.0.0.1  //cluster url or local mongodb url(assuming mongodb installed in local)  
+  MARIADB_HOST = 127.0.0.1  // local mariadb hostname)  
   MARIADB_PWD = somerandontext  //
   MARIADB_USER = test_user  
   TEST_USERID = test_userid 
@@ -15,7 +15,7 @@ setps to setup:
 5. npm start  // for starting nodejs server
 6. npm test  //for running unit test cases
 
-Two api's implemented for create user registration and fetch user details
+ Api's implemented for create fetch all, login  and fetch user by id
 
 6. url: hostname+ '/user/fetchall'  
     method: GET
