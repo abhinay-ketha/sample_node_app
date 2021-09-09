@@ -1,4 +1,4 @@
-# nodejs-CRUD
+# nodejs-sample-app
 
 setps to setup:  
 1.git clone  
